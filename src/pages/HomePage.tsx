@@ -35,7 +35,7 @@ export function HomePage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">
               Featured Companies
             </h2>
-            <footer>made by nitishshukla260@gmail.com</footer>
+            
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {featuredCompanies.map((company) => (
                 <CompanyCard key={company.id} company={company} />
